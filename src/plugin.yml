@@ -1,0 +1,4 @@
+name: AkuraEssentials
+main: fr.k0bus.akuraessentials.Main
+version: 0.1
+api-version: 1.14
