@@ -13,7 +13,7 @@ public class FirstJoin implements Listener{
     {
 		if(!e.getPlayer().hasPlayedBefore())
 		{
-			Main.plugin.getServer().broadcastMessage(Main.tag + ChatColor.LIGHT_PURPLE + "Souhaitez la bienvenue à " + ChatColor.GREEN + e.getPlayer().getDisplayName() + ChatColor.LIGHT_PURPLE + " !");
+			Main.plugin.getServer().broadcastMessage(Main.tag + ChatColor.translateAlternateColorCodes('&', Main.config.getString("text.welcome").replaceAll("%USERNAME%", e.getPlayer().getDisplayName())));
 		}
     }
 }

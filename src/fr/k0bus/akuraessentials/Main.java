@@ -47,6 +47,7 @@ public class Main extends JavaPlugin{
 	private void setDefaultConfig()
 	{
 		Main.config.addDefault("tag", "&r[&cAkura&r]");
+		Main.config.addDefault("text.welcome", "&dSouhaitez la bienvenue à &a%USERNAME% &d!");
 		Main.config.options().copyDefaults(true);
 		this.saveConfig();
 	}
