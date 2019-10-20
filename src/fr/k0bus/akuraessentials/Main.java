@@ -28,7 +28,6 @@ public class Main extends JavaPlugin{
 		Main.plugin = this;
 		// Commands
 		this.getLogger().log(Level.INFO, "Loading commands.");
-		
 		// Events
 		this.getLogger().log(Level.INFO, "Loading events.");
 		this.registerEvent(this.getServer().getPluginManager());
